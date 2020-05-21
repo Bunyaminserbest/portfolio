@@ -60,58 +60,6 @@ class Projects extends Component {
               <IconButton name='share' />
             </CardMenu>
           </Card>
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            {/* Projet 1  React*/}
-            <CardTitle
-              style={{
-                color: 'black',
-                height: '176px',
-                background:
-                  'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover',
-              }}
-            >
-              React Project #2
-            </CardTitle>
-            <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et
-              semper eros, non pulvinar ipsum. Nunc eget hendrerit risus. Mauris
-              eu feugiat dolor.
-            </CardText>
-            <CardActions border>
-              <Button>Github</Button>
-              <Button>CodePen</Button>
-              <Button>LiveDemo</Button>
-            </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
-              <IconButton name='share' />
-            </CardMenu>
-          </Card>
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            {/* Projet 1  React*/}
-            <CardTitle
-              style={{
-                color: 'black',
-                height: '176px',
-                background:
-                  'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover',
-              }}
-            >
-              React Project #3
-            </CardTitle>
-            <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et
-              semper eros, non pulvinar ipsum. Nunc eget hendrerit risus. Mauris
-              eu feugiat dolor.
-            </CardText>
-            <CardActions border>
-              <Button>Github</Button>
-              <Button>CodePen</Button>
-              <Button>LiveDemo</Button>
-            </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
-              <IconButton name='share' />
-            </CardMenu>
-          </Card>
         </div>
       );
     } else if (this.state.activeTab === 1) {
