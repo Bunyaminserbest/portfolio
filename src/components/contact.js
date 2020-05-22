@@ -18,9 +18,7 @@ class Contact extends Component {
                 marginTop: '30px',
               }}
             />
-            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
-              I'll get back to you as soon as I get a signal...
-            </p>
+            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}></p>
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>
